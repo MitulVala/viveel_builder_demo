@@ -1,0 +1,359 @@
+body{
+    background-color: #050E15;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.token-main-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 786px;
+    margin: auto;
+}
+.token-main-section .token-main-inner{
+    width: 100%;
+}
+
+.token-main-section .token-main-inner .stepper-content{
+    margin-bottom: 120px;
+}
+
+.token-main-section .token-main-inner .stepper-content .MuiStepLabel-iconContainer{
+   background-color: transparent;
+}
+.token-main-section .token-main-inner .stepper-content .MuiStepLabel-iconContainer .MuiSvgIcon-root{
+    color: transparent;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.token-main-section .token-main-inner .stepper-content .MuiStepLabel-iconContainer .MuiSvgIcon-root.Mui-active{
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.token-main-section .token-main-inner .stepper-content .MuiStepLabel-iconContainer .MuiSvgIcon-root.Mui-active .MuiStepIcon-text{
+    fill: rgba(255, 255, 255, 0.5);
+} 
+.token-main-section .token-main-inner .stepper-content .MuiStepConnector-root {
+    top: 48px;
+    left: calc(-50% + 70px);
+    right: calc(50% + 70px);
+}
+.token-main-section .token-main-inner .stepper-content .MuiStepConnector-root .MuiStepConnector-line{
+    border: 5px solid rgba(255, 255, 255, 0.3);
+}
+
+.token-main-section .token-main-inner .stepper-content .MuiStepLabel-iconContainer .MuiSvgIcon-root .MuiStepIcon-text{
+    fill: rgba(255, 255, 255, 0.3);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.token-main-section .token-main-inner .token-form {
+    max-width: 85%;
+    margin: auto;
+}
+
+.token-main-section .token-main-inner .token-form .MuiTypography-root{
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+.token-main-section .token-main-inner .token-form .MuiFormControl-root{
+    width: 100%;
+    border: unset;
+}
+.token-main-section .token-main-inner .token-form .MuiFormControl-root .MuiInputBase-root .MuiInputBase-input{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    height: 40px;
+    padding:0 20px;
+    color: #fff;
+}
+.token-main-section .token-main-inner .token-form .MuiFormControl-root .MuiOutlinedInput-notchedOutline{
+    border: unset;
+    outline: none;
+}
+.token-main-section .token-main-inner .token-form .MuiButtonBase-root{
+    text-align: end;
+    background-color: unset;
+    border: unset;
+    outline: unset;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    box-shadow: unset;
+    
+}
+.token-main-section .token-main-inner .token-form .next-btn{
+    text-align: end;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.copy-right p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.over-form-field{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.font-label-content span{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    width: 100%;  
+}
+.font-label-content{
+    padding: 0 15px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.addBtn-box{
+    margin-top: 40px;
+}
+.addBtn-box .add-more-btn{
+    background-color: rgba(255, 255, 255, 0.02) !important;
+border-radius: 50px;
+padding:3px 10px;
+font-size: 13px !important;
+line-height: 20px;
+font-weight: 400;
+color: #fff !important;
+width: 100%;
+border: none;
+text-transform: none;
+}
+
+.delete-icon .MuiButtonBase-root{
+    margin-top: 40px;
+}
+.checkbox-form .form-select-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.checkbox-form .form-select-group .checkbox{
+    margin-bottom: 30px;
+    width: 15%;
+    padding: 8px;
+    text-align: center;
+    margin: 0 10px 30px 0;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    
+}
+.checkbox-form .form-select-group .checkbox label input{
+    opacity: 0;
+    display: none;
+}
+.checkbox-form .form-select-group .checkbox-radio-btn{
+    border: 1px solid #fff;
+}
+
+
+/* token resume */
+.token-main-resume{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 680px;
+    margin: auto;
+}
+
+.token-main-resume .token-resume-inner .token-heading h4{
+   font-size: 40px;
+   line-height: 48px;
+   font-weight: 600;
+   color: rgba(255, 255, 255, 0.8);
+   text-align: center;
+   margin-bottom: 60px;
+}
+
+.token-main-resume .token-resume-inner .token-resume-content{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.token-main-resume .token-resume-inner .token-resume-content h6{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0;
+    min-width: 325px;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.token-main-resume .token-resume-inner .token-resume-content p{
+    background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 20px;
+    min-height: 34px;
+    width: 100%;
+    color: #fff;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+    word-break: break-word;  
+}
+.token-main-resume .token-resume-inner{
+    width: 100%;
+}
+.chat-content{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 12px;
+}
+.block-chain-img{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.block-chain-img img{
+    margin: 0 15px 15px 0;
+    width: 50px;
+    height: 60px;
+}
+.build-btn{
+    text-align: end;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.build-btn .MuiButtonBase-root{
+    text-align: end;
+    background-color: unset;
+    border: unset;
+    outline: unset;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    box-shadow: unset;
+}
+
+
+@media(max-width: 767px){
+    /*  */
+    .token-main-resume{
+        height: 100%;
+        width: 100%;
+        padding: 20px 16px;
+        overflow: hidden;
+    }
+    .token-main-resume .token-resume-inner{
+        width: unset;
+    }
+    .token-main-resume .token-resume-inner .token-heading h4{
+        margin-bottom: 30px;
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .token-main-resume .token-resume-inner .token-resume-content{
+        display: block;
+    }
+    .token-main-resume .token-resume-inner .token-resume-content h6{
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 6px;
+        min-width: unset;
+    text-align: left;
+    }
+
+    /* first three pages responsive */
+
+    .token-main-section{
+        width: 100%;
+        height: 100%;
+        padding: 20px 16px;
+        overflow: hidden;
+
+    }
+    .token-main-section .token-main-inner{
+        width: unset;
+    }
+    .token-main-section .token-main-inner .stepper-content .MuiStepLabel-iconContainer .MuiSvgIcon-root{
+        width: 35px;
+        height: 35px;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+    .token-main-section .token-main-inner .stepper-content .MuiStepLabel-iconContainer .MuiSvgIcon-root.Mui-active{
+        border: 2px solid rgba(255, 255, 255, 0.5);
+    }
+    
+    .token-main-section .token-main-inner .stepper-content .MuiStepConnector-root .MuiStepConnector-line {
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+    .token-main-section .token-main-inner .stepper-content .MuiStepConnector-root {
+        top: 15px;
+        left: calc(-50% + 30px);
+        right: calc(50% + 30px);
+    }
+    .token-main-section .token-main-inner .stepper-content{
+        margin-bottom: 30px;
+    }
+
+    .token-main-section .token-main-inner .token-form .MuiTypography-root{
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .token-main-section .token-main-inner .token-form .MuiButtonBase-root{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .token-main-section .token-main-inner .token-form .next-btn{
+        padding: 30px 0;
+    }
+    .checkbox-form .form-select-group .checkbox{
+        width: unset;
+        margin: 0 10px 10px 0;
+    }
+
+    .checkbox-form .form-select-group .checkbox img{
+        width: 60px;
+        height: 60px;
+    }
+    .over-form-field{
+        display: block;
+    }
+    .font-label-content span{
+        text-align: left;
+    }
+    .font-label-content span{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .token-main-section .token-main-inner .token-form .MuiButtonBase-root{
+        margin-top: 0;
+    }
+    .delete-icon{
+        text-align: right;
+    }
+
+}
