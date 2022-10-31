@@ -17,7 +17,7 @@ import { useNavigate } from 'react-router-dom';
 
 function Token() {
 
-  const [activeStep, setActiveStep] = React.useState(3);
+  const [activeStep, setActiveStep] = React.useState(0);
   const dispatch = useDispatch();
   const navigation = useNavigate();
   const steps = ["Step1", "Step2", "Step3", "Step4"];
